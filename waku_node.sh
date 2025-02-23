@@ -216,8 +216,8 @@ while true; do
                         # UPDATE
                         process_notification "Обновляем (Updating)..."
                         cd $HOME/nwaku-compose
-                        git stash && git pull && git stash pop
                         docker compose down
+                        git pull origin master
                         docker compose up -d
                         ;;
                     5)
