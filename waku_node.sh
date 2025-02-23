@@ -236,7 +236,7 @@ while true; do
             ;;
         6)
             # LOGS
-            docker-compose logs -f nwaku
+            cd $HOME/nwaku-compose && docker-compose logs -f nwaku
             ;;
         7)
             # DELETE
