@@ -5,3 +5,7 @@ MIN SPEC
 
 
 cd $HOME && curl -O https://raw.githubusercontent.com/Alexjptz/Waku-node/master/waku_node.sh && chmod +x waku_node.sh && ./waku_node.sh && rm $HOME/waku_node.sh
+
+
+# RECOMENDATIONS BY PROJECT
+# TRY DO NOT USE CONTABO VPS. TRAFIC ISSUES.
